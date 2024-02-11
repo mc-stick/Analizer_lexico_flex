@@ -3,7 +3,7 @@ import static code.Tokens.*;
 %%
 %class Lexico
 %type Tokens
-L=[a-zA-z_]+
+L=[a-zA-z_;]+
 D=[0-9]+
 espacio=[ ,\t\r,\n]+
 %{
